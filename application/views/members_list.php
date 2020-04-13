@@ -427,7 +427,7 @@ aria-hidden="true">
 						//class="img-thumbnail"
 						html += '<tr>'
 							+ '<td><img style="width: 80px;  height: 76px;"  class="sm" src="http://' + window.location.host +
-							'/Library_Management_System/assets/images/Members/' + data[i].profile_photo +
+							'/Library_Management_System_Codeigniter3/assets/images/Members/' + data[i].profile_photo +
 							'" alt=" No Cover "></td>' +
 							'<td><small>ID: </small>' + data[i].id + '<br><small>Name: </small>' + data[i].name + '<br><span><small>Email: </small>' + data[i].email + '</span></td> ' +
 
@@ -493,7 +493,7 @@ aria-hidden="true">
 					$('[name="Edit_ISBN"]').val(data.ISBN);
 
 					$('[name="Edit_cover_file_div"]').html('<img style="width: 120px"  src="http://' + window.location.host +
-						'/Library_Management_System/assets/images/Members/' + data.cover_img +
+						'/Library_Management_System_Codeigniter3/assets/images/Members/' + data.cover_img +
 						'" alt=" No file is Exists in DB ">');
 					// if (data.cover_img) {
 					// 	$('[name="Edit_cover_file"]').val(data.cover_img);

@@ -430,7 +430,7 @@
 						//class="img-thumbnail"
 						html += '<tr>'
 							+ '<td><img style="width: 80px;  height: 76px;"  class="sm" src="http://' + window.location.host +
-							'/Library_Management_System/assets/images/Books/' + data[i].cover_img_link +
+							'/Library_Management_System_Codeigniter3/assets/images/Books/' + data[i].cover_img_link +
 							'" alt=" No Cover "></td>' +
 							'<td>' + data[i].id + '<br>' + data[i].title + '<br><span><strong>Subject: </strong>' + data[i].subject + '</span><br> ' +
 							'<span><strong> Supplier: </strong>' + data[i].Supplier_name + '</span></td>' +
@@ -495,7 +495,7 @@
 					$('[name="Edit_ISBN"]').val(data.ISBN);
 
 					$('[name="Edit_cover_file_div"]').html('<img style="width: 120px"  src="http://' + window.location.host +
-						'/Library_Management_System/assets/images/Books/' + data.cover_img +
+						'/Library_Management_System_Codeigniter3/assets/images/Books/' + data.cover_img +
 						'" alt=" No file is Exists in DB ">');
 					// if (data.cover_img) {
 					// 	$('[name="Edit_cover_file"]').val(data.cover_img);

@@ -178,7 +178,7 @@
 					$("#supplier_name").text(data.Supplier_name);
 					$("#publisher_name").text(data.publisher_name);
 					$("#book_img").html('<img style="width: 120px"  src="http://' + window.location.host +
-						'/Library_Management_System/assets/images/Books/' + data.cover_img +
+						'/Library_Management_System_Codeigniter3/assets/images/Books/' + data.cover_img +
 						'" alt=" No file is Exists in DB ">');
 
 				}
@@ -203,7 +203,7 @@
 					$("#member_join_at").text(data.join_at);
 					$("#member_card_id").text(data.card_id);
 					$("#Member_img_div").html('<img style="width: 120px"  src="http://' + window.location.host +
-						'/Library_Management_System/assets/images/Members/' + data.img +
+						'/Library_Management_System_Codeigniter3/assets/images/Members/' + data.img +
 						'" alt=" No file is Exists in DB ">');
 
 				}
